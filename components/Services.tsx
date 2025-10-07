@@ -1,0 +1,1 @@
+export default function Services(){ return (<section className='py-8'><h2 className='text-2xl font-bold'>Услуги</h2><ul className='mt-4'><li>Трансфер</li><li>Аренда авто</li><li>VIP-обслуживание</li></ul></section>) }

@@ -1,0 +1,1 @@
+export default function Fleet(){ return (<section className='py-12'><h2 className='text-2xl font-bold'>Наш автопарк</h2><div className='mt-4 grid md:grid-cols-3 gap-4'><div className='p-4 bg-surface rounded shadow'>Mercedes S</div><div className='p-4 bg-surface rounded shadow'>Toyota Camry</div><div className='p-4 bg-surface rounded shadow'>Minivan</div></div></section>) }

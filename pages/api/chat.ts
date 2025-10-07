@@ -1,0 +1,2 @@
+import type { NextApiRequest, NextApiResponse } from 'next';
+export default async function handler(req:NextApiRequest,res:NextApiResponse){ if(req.method!=='POST') return res.status(405).end(); const {message}=req.body; const key=process.env.OPENAI_API_KEY; if(key){ return res.status(200).json({reply:'(AI reply would be here when OPENAI_API_KEY is set)'}); } else { return res.status(200).json({reply:'Привет! Чтобы включить AI, добавь OPENAI_API_KEY в .env.local'}); } }

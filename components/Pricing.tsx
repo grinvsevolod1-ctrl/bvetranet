@@ -1,0 +1,1 @@
+export default function Pricing(){ return (<section className='py-12'><h2 className='text-2xl font-bold'>Тарифы</h2><div className='mt-4 grid md:grid-cols-3 gap-4'><div className='p-4 bg-surface rounded shadow'>Стандарт</div><div className='p-4 bg-surface rounded shadow'>Бизнес</div><div className='p-4 bg-surface rounded shadow'>VIP</div></div></section>) }
